@@ -328,8 +328,7 @@ function App() {
                   <h3 className="text-xl font-semibold text-white mb-2">Portofolio Website</h3>
                   <p className="text-gray-400 mb-4">A digital portfolio showcasing my skills, projects, and professional experience.</p>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">Vue.js</span>
-                    <span className="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">Firebase</span>
+                    <span className="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">React.js</span>
                   </div>
                   <div className="flex gap-4">
                     <a href="#" className="text-purple-400 hover:text-purple-300">
