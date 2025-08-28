@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  html {
+    @apply min-h-full w-full overflow-x-hidden;
+  }
+  
+  body {
+    @apply bg-black text-white min-h-screen w-full m-0 p-0 overflow-x-hidden;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #root {
+    @apply min-h-screen w-full m-0 p-0 overflow-x-hidden;
+  }
+}
