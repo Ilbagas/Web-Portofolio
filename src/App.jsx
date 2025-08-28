@@ -219,7 +219,7 @@ function App() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-semibold text-white mb-4">Perjalanan Saya</h3>
+              <h3 className="text-2xl font-semibold text-white mb-4">My Journey</h3>
               <p className="text-gray-400 mb-6">
                 I'm an Information Systems student at Telkom University with a growing passion for Artificial Intelligence. While my studies have provided a solid foundation, my current focus is on a specialized field: private AI development. This journey is all about building intelligent systems that prioritize user privacy and data security by operating locally on personal devices. My goal is to create innovative and secure AI solutions that empower users without compromising their data.
               </p>
