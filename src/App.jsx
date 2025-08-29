@@ -224,12 +224,40 @@ function App() {
                 I'm an Information Systems student at Telkom University with a growing passion for Artificial Intelligence. While my studies have provided a solid foundation, my current focus is on a specialized field: private AI development. This journey is all about building intelligent systems that prioritize user privacy and data security by operating locally on personal devices. My goal is to create innovative and secure AI solutions that empower users without compromising their data.
               </p>
               
-              <div className="grid grid-cols-2 gap-4 mt-8">
-                <div className="bg-gray-900 p-4 rounded-lg">
-                  <h4 className="text-purple-400 font-semibold">2+</h4>
-                  <p className="text-gray-400">Years Experience</p>
+                {/* Kartu pengalaman */}
+              <div className="mt-5 bg-gray-900/70 backdrop-blur-sm p-6 rounded-2xl border border-gray-800 w-full max-w-md shadow-xl">
+                <h3 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                  <span className="text-purple-500">💼</span>
+                  Organizational Experience
+                </h3>
+                <div className="space-y-5">
+                  <div className="group">
+                    <div className="flex items-start gap-3">
+                      <div className="mt-1 w-3 h-3 rounded-full bg-purple-500 group-hover:scale-125 transition-transform duration-300"></div>
+                      <div>
+                        <h4 className="text-white font-medium flex items-center gap-2">
+                          Expert Staff Departemen Entrepreneur
+                          <span className="text-xs px-2 py-1 bg-green-900/50 text-green-400 rounded-full">Active</span>
+                        </h4>
+                        <p className="text-gray-400">HMSI • 2025 </p>
+                        <p className="text-gray-500 text-sm mt-2">Expert Staff in Entrepreneur Department, handling fundraising and partnerships to support student association programs.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="group">
+                    <div className="flex items-start gap-3">
+                      <div className="mt-1 w-3 h-3 rounded-full bg-blue-500 group-hover:scale-125 transition-transform duration-300"></div>
+                      <div>
+                        <h4 className="text-white font-medium flex items-center gap-2">
+                          Junior Staff Departemen Entrepreneur
+                          <span className="text-xs px-2 py-1 bg-blue-900/50 text-blue-400 rounded-full">2024</span></h4>
+                        <p className="text-gray-400">HMSI • 2024</p>
+                        <p className="text-gray-500 text-sm mt-2">Intern at Entrepreneur HMSI</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </div>  
             </div>
             
             <div className="bg-gray-900 p-8 rounded-2xl">
