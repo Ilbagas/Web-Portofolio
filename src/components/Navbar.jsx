@@ -153,13 +153,13 @@ const Navbar = () => {
           </nav>
           <div className="p-4 border-t border-gray-200">
             <div className="flex gap-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors duration-300">
+              <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors duration-300">
                 GitHub
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors duration-300">
-                Twitter
+              <a href="https://www.instagram.com/ilbagas_/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors duration-300">
+                Instagram
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors duration-300">
+              <a href="https://www.linkedin.com/in/ilham-bagaskara-26583b2b2/details/experience/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors duration-300">
                 LinkedIn
               </a>
             </div>
